@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+.verse-section {
+    width: 100%;
+    height: 88%;
+    background-image: url(images/verse-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+}
