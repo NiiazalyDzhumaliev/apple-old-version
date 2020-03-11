@@ -10,6 +10,9 @@ body {
 
 /* Main background image positioning starts here */
 .verse-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     height: 88%;
     background-image: url(images/verse-hero.jpg);
@@ -75,5 +78,16 @@ nav {
 .nav-input:focus {
     width: 300px;
     transition: width 1s ease-in-out;
+}
 
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+}
+
+.header-links {
+    text-decoration: none;
+    color: white;
 }
