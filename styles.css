@@ -11,8 +11,14 @@ body {
     background-position: 50% 100%;
 }
 
-.navbar-li {
+.navbar-ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav-links {
     display: block;
-    background-image: url("http://images.apple.com/global/nav/images/globalnav_text.svg");
-    background-repeat: no-repeat;
+    margin-right: 20px;
+    width: 60px;
 }
