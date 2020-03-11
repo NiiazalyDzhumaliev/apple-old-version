@@ -15,10 +15,24 @@ body {
     display: flex;
     justify-content: center;
     list-style-type: none;
+    padding-top: 80px;
 }
 
 .nav-links {
     display: block;
-    margin-right: 20px;
-    width: 60px;
+    width: 104px;
+    height: 36px;
+    background-image: url("http://images.apple.com/global/nav/images/globalnav_text.svg");
+    background-repeat: no-repeat;
+    background-color: gray;
+    border-radius: 5px;
+    border-right: 1px solid darkgray;
+}
+
+.apple-logo {
+    background-position: 50% 2px;
+}
+
+.store {
+    background-position: 50% 13%;
 }
