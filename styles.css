@@ -7,6 +7,6 @@ body {
     height: 88%;
     background-image: url(images/verse-hero.jpg);
     background-repeat: no-repeat;
+    background-size: 1440px 1315px;
     background-position: 50% 100%;
-    zoom: 0.5;
 }
