@@ -116,7 +116,7 @@ nav {
 .fa-search {
   position: absolute;
   margin-left: 5px;
-  color: black;
+  color: white;
 }
 
 header {
@@ -179,4 +179,60 @@ aside {
 
 .aside-image {
   width: 100%;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 30px;
+  font-size: 0.6rem;
+  color: #6e6e6e;
+}
+
+.footer-left a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.footer-left a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  margin-top: 20px;
+  font-size: 0.6rem;
+}
+
+.more-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-info-link {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid lightgray;
+  text-decoration: none;
+  color: #08c;
+}
+
+.more-info a:hover {
+  text-decoration: underline;
+}
+
+.usa-flag {
+  padding-right: 10px;
+  padding-left: 10px;
 }
