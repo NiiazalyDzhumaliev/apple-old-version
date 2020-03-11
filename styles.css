@@ -83,6 +83,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 900px;
+    line-height: 1.6;
 
 }
 
@@ -93,5 +95,37 @@ header {
 
 .header-text {
     font-family: 'Nixie One', cursive;
+}
+
+.header-top {
+    margin-bottom: 0;
+    font-size: 3.8rem;
     font-weight: 100;
+}
+
+.header-middle {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.your-verse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 515px;
+}
+
+.header-bottom {
+    font-weight: 600;
+}
+
+.fa-play-circle {
+    color: white;
+}
+
+.verse-link:hover {
+    text-decoration: underline;
 }
