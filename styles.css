@@ -71,3 +71,9 @@ nav {
     display: flex;
     align-items: center;
 }
+
+.nav-input:focus {
+    width: 300px;
+    transition: width 1s ease-in-out;
+
+}
