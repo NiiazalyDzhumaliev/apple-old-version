@@ -5,7 +5,7 @@ Clone of Apple.com web page for study purpose
 
 > This is an assigment for Microverse HTML and CSS course. The goal is to clone the Apple.com page with static functionability.
 
-![screenshot](.images/screenshot-of-page.png)
+![screenshot](images/screenshot-of-page.png)
 
 Additional description about the project and its features.
 
