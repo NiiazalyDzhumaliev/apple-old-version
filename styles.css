@@ -113,6 +113,10 @@ nav {
   transition: width 0.5s ease-in-out;
 }
 
+.input-container input:focus+i {
+  color: gray;
+}
+
 .fa-search {
   position: absolute;
   margin-left: 5px;
