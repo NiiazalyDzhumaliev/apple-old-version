@@ -49,16 +49,16 @@ nav {
   border-right: 0.5px solid #636363;
   width: 100%;
   background: linear-gradient(to bottom,
-      rgb(134, 134, 134) 5%,
-      rgb(128, 128, 128) 50%,
-      rgb(107, 107, 107) 51%,
-      #636363 8%,
-      rgb(121, 121, 121) 94%);
+  rgb(134, 134, 134) 5%,
+  rgb(128, 128, 128) 50%,
+  rgb(107, 107, 107) 51%,
+  #636363 8%,
+  rgb(121, 121, 121) 94%);
   box-shadow: 1px 1px 3px #565656;
 }
 
 .navbar-li:hover {
-  background-image: linear-gradient(to bottom, #535353, #393939 50%, #444444 50%, #5f5f5f);
+  background-image: linear-gradient(to bottom, #535353, #393939 50%, #444 50%, #5f5f5f);
   cursor: pointer;
 }
 
@@ -81,11 +81,11 @@ nav {
 
 .search-container:hover {
   background: linear-gradient(to bottom,
-      rgb(134, 134, 134) 5%,
-      rgb(128, 128, 128) 50%,
-      rgb(107, 107, 107) 51%,
-      #636363 8%,
-      rgb(121, 121, 121) 94%);
+  rgb(134, 134, 134) 5%,
+  rgb(128, 128, 128) 50%,
+  rgb(107, 107, 107) 51%,
+  #636363 8%,
+  rgb(121, 121, 121) 94%);
 }
 
 .input-container {
@@ -95,11 +95,11 @@ nav {
 
 .nav-input {
   background: linear-gradient(to bottom,
-      rgb(134, 134, 134) 5%,
-      rgb(128, 128, 128) 50%,
-      rgb(107, 107, 107) 51%,
-      #636363 8%,
-      rgb(121, 121, 121) 94%);
+  rgb(134, 134, 134) 5%,
+  rgb(128, 128, 128) 50%,
+  rgb(107, 107, 107) 51%,
+  #636363 8%,
+  rgb(121, 121, 121) 94%);
   padding-left: 25px;
   border-radius: 12px;
   width: 100px;
@@ -113,7 +113,7 @@ nav {
   transition: width 0.5s ease-in-out;
 }
 
-.input-container input:focus+i {
+.input-container input:focus + i {
   color: gray;
 }
 
@@ -129,7 +129,6 @@ header {
   align-items: center;
   width: 900px;
   line-height: 1.6;
-
 }
 
 .header-links {
